@@ -1,0 +1,44 @@
+// User Table
+CREATE TABLE user (
+    ID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Age INT,
+    Email VARCHAR(50),
+    PhoneNumber VARCHAR(50),
+    Password VARCHAR(50)
+);
+
+// Nutritionist Table
+CREATE TABLE nutritionist (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    PhoneNumber VARCHAR(50),
+    Feedback VARCHAR(MAX),
+    Status VARCHAR(50)
+);
+
+// Meal Table
+CREATE TABLE meal (
+    ID INT,
+    Date VARCHAR(50),
+    Name VARCHAR(50),
+    MealName VARCHAR(50),
+    Ingredients VARCHAR(50),
+    Diet VARCHAR(50)
+);
+
+// Exercise Table
+CREATE TABLE exercise (
+    ID INT,
+    Date VARCHAR(50),
+    Type VARCHAR(50),
+    ExerciseCount INT
+);
+
+// Calorie Table
+CREATE TABLE calorie (
+    ID INT,
+    Name VARCHAR(50),
+    CalorieCount FLOAT
+);
