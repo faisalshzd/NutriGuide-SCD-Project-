@@ -1,0 +1,18 @@
+First, you need to install Xampp (recommended)
+or any platform on which you can create a database.
+Then, if you use Xampp run Apache and Mysql on it and open your browser.
+In you browser open the link: http://localhost/phpmyadmin/
+The External Libraries/JAR files required for this project are: (Download them)
+1.Jdatechooser
+2.DateChooserDemo.jar
+3.Jdatepicker-1.3.2.jar
+4.Jfreechart.jar
+5.mysql-connector-j-8.2.0.jar
+Open the project folder as Intellij Idea Project.
+Add the dependencies mentioned above inside the project folder.
+After opening phpMyAdmin create a database.
+Follow the schema very strictly, provided in the file named: SQL Schema Script-nutriguide.
+After creating database, then move to the StartPage java class inside this project and run that class.
+You will get access to the further functionality by having users in your user table
+and also can create an account in order to register user (to add them in user table)
+After that login for that user credentials to get access to full functionality of system.
